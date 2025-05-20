@@ -4,7 +4,7 @@
         <div class="navbar-header">
             <!-- logo marca de la empresa -->
             <a class="navbar-brand me-auto barra" href="<?php echo base_url('principal') ?>">
-                <img src="<?php echo base_url('assets/img/map_navigation_icon.png') ?>"
+                <img src="<?php echo base_url('assets/img/tyc_icon.png') ?>"
                     alt="marca" width="50" height="25" class="img-fluid" />
             </a>
         </div>

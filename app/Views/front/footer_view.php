@@ -10,6 +10,7 @@
         class="btn btn-link btn-floating btn-sm text-body m-1"
         href="https://github.com/elenaGonzalez"
         role="button"
+        target="_blank"
         data-mdb-ripple-color="dark"><img src="assets/img/github_icon.png" alt="Github"/></a>
 
       <!-- Linkedin -->
@@ -18,6 +19,7 @@
         class="btn btn-link btn-floating btn-sm text-body m-1"
         href="https://www.linkedin.com/in/ele-gonzalez/"
         role="button"
+        target="_blank"
         data-mdb-ripple-color="dark"><img src="assets/img/linkedin_icon.png" alt="Linkedin"/></a>
 
     </section>
@@ -32,10 +34,6 @@
   <!-- Copyright -->
 </footer>
 <!-- fin footer -->
-<script>
-   function en_construccion() {
-      alert("En construcción");
-    }
-</script>
+
 </body>
 </html>

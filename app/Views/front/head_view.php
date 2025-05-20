@@ -6,11 +6,12 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/micss/styles.css">
     <title>Turismo Corrientes</title>
-    <link rel="shortcut icon" href="assets/img/map_navigation_icon.png">
+    <link rel="shortcut icon" href="assets/img/tyc_icon.png">
 </head>
 <body class="container-fluid">
-    <div class="mt-2 p-2">
+    <div class="mt-2 p-2 bg-success">
      <header class="text-center">
-        <h1>Vení a conocer Corrientes!!</h1>
+        <h1 class="bg-success opacity-75">Vení a conocer Corrientes!!</h1>
     </header>
+    <script src="assets/js/bootstrap.min.js"></script>
     </div>
