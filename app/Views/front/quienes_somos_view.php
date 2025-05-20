@@ -7,7 +7,7 @@
           <img src="assets/img/gerente_general.jpg" class="card-img-top" alt="Gerente General">
           <div class="card-body">
             <h5 class="card-title text-bg-light">Mario Lozano</h5>
-            <p class="card-text">Soy Gerente General de la Empresa Corrientes Turismo. Mi labor consiste en liderar al equipo, coordinar las operaciones estratégicas y asegurar que nuestros servicios superen las expectativas de nuestros clientes.</p>
+            <p class="card-text">Soy Gerente General de la Empresa Turismo Corrientes. Mi labor consiste en liderar al equipo, coordinar las operaciones estratégicas y asegurar que nuestros servicios superen las expectativas de nuestros clientes.</p>
             <!-- Boton trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Ver mas
