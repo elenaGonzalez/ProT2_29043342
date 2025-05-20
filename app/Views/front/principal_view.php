@@ -1,9 +1,12 @@
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <section>
     <div class="text-center text-bg-light p-3">
-        <p class="text-primary p-3 fw-bolds fst-italic">Corrientes: Naturalmente Mágica 🐊</p>
-        Si pensas en un lugar donde pasar momentos inolvidables,
-        no dudes en visitarnos.<br>Te esperamos con los brazos abiertos Chamigo!!
+      <p class="text-primary p-3 fw-bolds fst-italic">Corrientes: Naturalmente Mágica 🐊</p>
+      <p>Turismo Corrientes nace como una empresa que ofrece verdaderas aventuras ecológicas 
+        que no puedes dejar de conocer.</p>
+      <p> Te ofrecemos las mejores excusiones y paseos, para que vivas a pleno tu estadía en Corrientes!!</p>
+      <p> Si pensas en un lugar donde pasar momentos inolvidables,
+        no dudes en visitarnos. Te esperamos con los brazos abiertos Chamigo!!</p>
     </div>
   </section>
   <!-- carrousell -->

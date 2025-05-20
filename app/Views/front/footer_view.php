@@ -32,6 +32,10 @@
   <!-- Copyright -->
 </footer>
 <!-- fin footer -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script>
+   function en_construccion() {
+      alert("En construcción");
+    }
+</script>
 </body>
 </html>
