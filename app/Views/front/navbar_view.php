@@ -28,7 +28,7 @@
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-primary" type="submit" onclick="buscar()">Buscar</button>
+                <button class="btn btn-primary" type="submit" onclick="en_construccion()">Buscar</button>
                 </div>
 
             </form>
