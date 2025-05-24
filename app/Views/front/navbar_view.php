@@ -19,6 +19,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="acerca_de">Acerca De</a>
                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactos">Contactos</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="registro">Registrarse</a>
                 </li>

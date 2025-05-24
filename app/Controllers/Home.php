@@ -9,6 +9,7 @@ class Home extends BaseController
         echo view('front/head_view');
         echo view('front/navbar_view');
         echo view('front/principal_view');
+        echo view('front/comentarios_view');
         echo view('front/footer_view');
     }
     public function quienes_somos()
@@ -37,6 +38,20 @@ class Home extends BaseController
         echo view('front/head_view');
         echo view('front/navbar_view');
         echo view('front/login_view');
+        echo view('front/footer_view');
+    }
+    public function servicios()
+    {
+        echo view('front/head_view');
+        echo view('front/navbar_view');
+        echo view('front/servicios_view');
+        echo view('front/footer_view');
+    }
+    public function contactos()
+    {
+        echo view('front/head_view');
+        echo view('front/navbar_view');
+        echo view('front/contactos_view');
         echo view('front/footer_view');
     }
 }

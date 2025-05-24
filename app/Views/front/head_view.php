@@ -33,43 +33,58 @@
                 let c = document.forms["formulario_registro"]["contraseña"].value;
                 let rc = document.forms["formulario_registro"]["repetir_contraseña"].value;
 
+                const mensaje_n = document.getElementById("pn");
+                const mensaje_a = document.getElementById("pa");
+                const mensaje_e = document.getElementById("pe");
+                const mensaje_u = document.getElementById("pu");
+                const mensaje_c = document.getElementById("pc");
+                const mensaje_rc = document.getElementById("prc");
+                const mensaje_rc2 = document.getElementById("prc");
 
-                if (n == "") {
-                    alert("El campo Nombre puede ser vacio");
-                    return false;
-                }
-                if (a == "") {
-                    alert("El campo Apellido puede ser vacio");
-                    return false;
-                }
-                if (e == "") {
-                    alert("El campo Email puede ser vacio");
-                    return false;
-                }
-                if (u == "") {
-                    alert("El campo Usuario puede ser vacio");
-                    return false;
-                }
-                if (c == "") {
-                    alert("El campo Contraseña puede ser vacio");
-                    return false;
-                }
-                 if (rc == "") {
-                    alert("El campo Contraseña puede ser vacio");
-                    return false;
-                }
-                if (rc !== c ) {
-                    alert("Las Contraseñas no coinciden");
-                    return false;
-                }
+                mensaje_n.innerHTML = "";
+                mensaje_a.innerHTML = "";
+                mensaje_e.innerHTML = "";
+                mensaje_u.innerHTML = "";
+                mensaje_c.innerHTML = "";
+                mensaje_rc.innerHTML = "";
+                mensaje_rc2.innerHTML = "";
 
-                 if (c == "") {
-                    alert("El campo Contraseña puede ser vacio");
-                    return false;
-                }
+                let error = false;
 
-                alert(`${n} Muchas gracias por registrarte :) `)
-                limpiar_formulario();
+                    if (n == "") {
+                        mensaje_n.innerHTML = "El campo Nombre no puede ser vacio";
+                        error = true;
+                    }
+                    if (a == "") {
+                         mensaje_a.innerHTML = "El campo Apellido puede ser vacio";
+                          error = true;
+                    }
+                    if (e == "") {
+                         mensaje_e.innerHTML = "El campo Email puede ser vacio";
+                          error = true;
+                    }
+                    if (u == "") {
+                         mensaje_u.innerHTML = "El campo Usuario puede ser vacio";
+                         error = true;
+                    }
+                    if (c == "") {
+                         mensaje_c.innerHTML = "El campo Contraseña puede ser vacio";
+                         error = true;
+                    }
+                    if (rc == "") {
+                        mensaje_rc.innerHTML = "El campo Repetir Contraseña puede ser vacio";
+                         error = true;
+                    }
+                    if (rc !== c) {
+                        mensaje_rc2.innerHTML = "Las Contraseñas no coinciden";
+                         error = true;
+                    }
+                     
+                    if( error ){
+                        return false;
+                    }
+                    alert(`${n}, gracias por registrarte!!`);
+                    limpiar_formulario();
             }
         </script>
     </div>
