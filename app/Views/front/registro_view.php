@@ -39,7 +39,7 @@
                     <p id="prc2" class="text-danger"></p>
                 </div>
                 <button type="submit" class="btn btn-sm btn-primary">Registrar</button>
-                <button type="button" class="btn btn-sm btn-danger" onclick="limpiar_formulario()">Cancelar</button>
+                <button type="button" class="btn btn-sm btn-danger" onclick="limpiar_f_registro()">Cancelar</button>
             </form>
            
         </div>
