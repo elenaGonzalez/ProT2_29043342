@@ -18,6 +18,7 @@
                     <input type="email" class="form-control" id="exampleFormControlInput3" 
                     name="email" placeholder="email@ejemplo.com">
                     <p id="pe" class="text-danger"></p>
+                    <p id="pe2" class="text-danger"></p>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput4" class="form-label">* Usuario</label>

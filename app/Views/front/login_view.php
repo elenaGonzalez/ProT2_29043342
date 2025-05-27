@@ -9,7 +9,7 @@
                 <label for="exampleInputPassword1" class="form-label">Contraseña</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
             </div>
-            <button type="submit" class="btn btn-sm btn-primary">Registrarse</button>
+            <button type="submit" class="btn btn-sm btn-primary">Ingresar</button>
             <button type="button" class="btn btn-sm btn-danger">Cancelar</button>
             <p>No está registrado?<a href="registro"> Regístrese aquí</a></p>
         </form>

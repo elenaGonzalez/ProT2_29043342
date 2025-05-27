@@ -1,4 +1,4 @@
-<div class="p-5 d-flex align-items-center justify-content-center">
+<div class="p-5 d-flex align-items-center justify-content-center ">
     <div class="w-50">
         <form class="bg-success-subtle p-2" id="formulario_contacto" onsubmit="return validar_contacto()">
             <div class="mb-3">
@@ -13,8 +13,8 @@
                     name="apellido" placeholder="Apellido">
                 <p id="ca" class="text-danger"></p>
             </div>
-              <div class="mb-3">
-                 <label for="exampleFormControlInput3" class="form-label">  Servicio</label>
+            <div class="mb-3">
+                <label for="exampleFormControlInput3" class="form-label"> Servicio</label>
                 <select class="form-select form-select-sm" aria-label="Small select example" name="servicio">
                     <option selected>Seleccione Servicio deseado:</option>
                     <option value="playa">Dia de Playa</option>
@@ -38,13 +38,12 @@
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput6" class="form-label">* Consulta</label>
-                <textarea class="form-control"name="consulta" placeholder="Consulta" id="floatingTextarea"></textarea>
+                <textarea class="form-control" name="consulta" placeholder="Consulta" id="floatingTextarea"></textarea>
                 <p id="cm" class="text-danger"></p>
             </div>
-            
+
             <button type="submit" class="btn btn-sm btn-primary">Consultar</button>
             <button type="button" class="btn btn-sm btn-danger" onclick="limpiar_f_contacto()">Cancelar</button>
         </form>
-
-    </div>
+        </div>
 </div>

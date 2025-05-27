@@ -13,6 +13,13 @@ $routes->get('registro', 'Home::registro');
 $routes->get('login', 'Home::login');
 $routes->get('servicios', 'Home::servicios');
 $routes->get('contactos', 'Home::contactos');
+$routes->get('/user', 'User::index');
+$routes->get('perfil', 'User::perfil');
+$routes->get('reservas', 'User::reservas');
+
+
+
+
 
 
 
