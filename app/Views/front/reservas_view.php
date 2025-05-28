@@ -2,6 +2,7 @@
      <div class="container p-5">
             <h1>Reservas</h1>
              <a class="btn btn-primary" href="perfil" role="button">Perfil</a>
+             <div class="table-responsive">
             <table class="table table-responsive-md table-success table-striped">
                 <thead>
                     <tr>
@@ -50,5 +51,6 @@
                     </tr>
                 </tbody>
             </table>
+             </div>
         </div>
 </div>

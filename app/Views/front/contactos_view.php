@@ -1,10 +1,10 @@
 <div class="p-5 d-flex align-items-center justify-content-center ">
     <div class="w-50">
-        <form class="bg-success-subtle p-2" id="formulario_contacto" onsubmit="return validar_contacto()">
+        <form class="bg-success-subtle p-2" action="" id="formulario_contacto" onsubmit="return validar_contacto()">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">* Nombre</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1"
-                    name="nombre" placeholder="Nombre">
+                name="nombre" placeholder="Nombre">
                 <p id="cn" class="text-danger"></p>
             </div>
             <div class="mb-3">
@@ -29,6 +29,8 @@
                 <input type="email" class="form-control" id="exampleFormControlInput4"
                     name="email" placeholder="email@ejemplo.com">
                 <p id="ce" class="text-danger"></p>
+                <p id="ce2" class="text-danger"></p>
+
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput5" class="form-label">* Celular</label>
