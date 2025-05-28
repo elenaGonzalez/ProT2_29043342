@@ -9,6 +9,13 @@ class Home extends BaseController
         echo view('front/head_view');
         echo view('front/navbar_view');
         echo view('front/principal_view');
+        echo view('front/comentarios_index_view');
+        echo view('front/footer_view');
+    }
+     public function comentarios()
+    {
+        echo view('front/head_view');
+        echo view('front/navbar_view');
         echo view('front/comentarios_view');
         echo view('front/footer_view');
     }

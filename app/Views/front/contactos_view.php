@@ -14,8 +14,8 @@
                 <p id="ca" class="text-danger"></p>
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlInput3" class="form-label"> Servicio</label>
-                <select class="form-select form-select-sm" aria-label="Small select example" name="servicio">
+                <label for="my_select" class="form-label"> Servicio</label>
+                <select class="form-select form-select-sm" aria-label="Small select example" name="servicio" id="my_select">
                     <option selected>Seleccione Servicio deseado:</option>
                     <option value="playa">Dia de Playa</option>
                     <option value="esteros">Esteros del Ibera</option>
@@ -27,7 +27,7 @@
             <div class="mb-3">
                 <label for="exampleFormControlInput4" class="form-label">* Email</label>
                 <input type="email" class="form-control" id="exampleFormControlInput4"
-                    name="email" placeholder="email@ejemplo.com">
+                    name="email" placeholder="email@ejemplo.com" autocomplete="email">
                 <p id="ce" class="text-danger"></p>
                 <p id="ce2" class="text-danger"></p>
 
@@ -39,7 +39,7 @@
                 <p id="cc" class="text-danger"></p>
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlInput6" class="form-label">* Consulta</label>
+                <label for="floatingTextarea" class="form-label">* Consulta</label>
                 <textarea class="form-control" name="consulta" placeholder="Consulta" id="floatingTextarea"></textarea>
                 <p id="cm" class="text-danger"></p>
             </div>
