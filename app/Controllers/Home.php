@@ -81,8 +81,8 @@ class Home extends BaseController
          $input = $this->validate([
           'nombre' => 'required|min_length[3]',
           'apellido' => 'required|min_length[3]|max_length[25]',
-          'email' => 'required|min_length[4]|max_length[100]',
-          'celular' => 'required|numeric|min_length[10]|max_length[12]',
+          'email' => 'required|min_length[4]|max_length[100]|valid_email|is_unique[usuarios.email,id,{id}]',
+          'celular' => 'required|regex_match[/^[0-9]{10}$/]',
           'consulta' => 'required|max_length[600]',
          ]
         );
@@ -104,7 +104,7 @@ class Home extends BaseController
             
         ]);*/
         session()->setFlashdata('success', 'Email enviado con exito');
-        return $this->response->redirect('contactos');
+        return $this->response->redirect('/contactos');
       }
     }
 }

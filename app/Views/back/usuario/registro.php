@@ -8,12 +8,12 @@
          <div class="alert alert-danger"><?session()->getFlashdata('fail');?></div>
          <?php endif ?>
           <?php if(!empty (session()->getFlashdata('success'))):?>
-            <div class="alert alert-warning"><?=session()->getFlashdata('success');?></div>
+            <div class="alert alert-warning"><?session()->getFlashdata('success');?></div>
          <?php endif ?>
             <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">* Nombre</label>
                     <input type="text" class="form-control" id="exampleFormControlInput1" 
-                    name="nombre" placeholder="Nombre">
+                    name="nombre" placeholder="Nombre" >
                     <!-- Error -->
                      <?php if($validation->getError('nombre')) {?>
                       <div class="text-danger mt-2">

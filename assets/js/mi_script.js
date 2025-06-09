@@ -20,7 +20,7 @@ function validar_registro() {
     let a = document.forms["formulario_registro"]["apellido"].value;
     let e = document.forms["formulario_registro"]["email"].value;
     let u = document.forms["formulario_registro"]["usuario"].value;
-    let c = document.forms["formulario_registro"]["pass"].value;
+    let c = document.forms["formulario_registro"]["contraseña"].value;
     let rc = document.forms["formulario_registro"]["repetir_contraseña"].value;
 
     let mensaje_n = document.getElementById("pn");
@@ -149,7 +149,7 @@ function validar_login() {
     console.log("En validar login");
 
     let le = document.forms["formulario_login"]["email"].value;
-    let lc = document.forms["formulario_login"]["pass"].value;
+    let lc = document.forms["formulario_login"]["contraseña"].value;
 
     let mensaje_le = document.getElementById("logine");
     let mensaje_le2 = document.getElementById("logine2");

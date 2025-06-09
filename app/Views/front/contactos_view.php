@@ -1,37 +1,16 @@
 <div class="p-5 d-flex align-items-center justify-content-center ">
     <div class="w-50">
-        <?php $validation = \Config\Services::validation(); ?>
-        <form class="bg-success-subtle p-2" action="<?php echo base_url('/enviar_mail') ?>" method="POST" id="formulario_contacto">
-            <?= csrf_field(); ?>
-            <?= csrf_field(); ?>
-            <?php if (!empty(session()->getFlashdata('fail'))): ?>
-                <div class="alert alert-danger"><? session()->getFlashdata('fail'); ?></div>
-            <?php endif ?>
-            <?php if (!empty(session()->getFlashdata('success'))): ?>
-                <div class="alert alert-warning"><? session()->getFlashdata('success'); ?></div>
-            <?php endif ?>
+        <form class="bg-success-subtle p-2" action="" id="formulario_contacto" onsubmit="return validar_contacto()">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">* Nombre</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1"
-                    name="nombre" placeholder="Nombre">
-                    <!-- Error -->
-                     <?php if($validation->getError('nombre')) {?>
-                      <div class="text-danger mt-2">
-                        <?=$error = $validation->getError('nombre'); ?>
-                      </div>
-                      <?php } ?>
+                name="nombre" placeholder="Nombre">
                 <p id="cn" class="text-danger"></p>
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput2" class="form-label">* Apellido</label>
                 <input type="text" class="form-control" id="exampleFormControlInput2"
                     name="apellido" placeholder="Apellido">
-                     <!-- Error -->
-                     <?php if($validation->getError('apellido')) {?>
-                      <div class="text-danger mt-2">
-                        <?=$error = $validation->getError('apellido'); ?>
-                      </div>
-                      <?php } ?>
                 <p id="ca" class="text-danger"></p>
             </div>
             <div class="mb-3">
@@ -49,12 +28,6 @@
                 <label for="exampleFormControlInput4" class="form-label">* Email</label>
                 <input type="email" class="form-control" id="exampleFormControlInput4"
                     name="email" placeholder="email@ejemplo.com" autocomplete="email">
-                    <!-- Error -->
-                     <?php if($validation->getError('email')) {?>
-                       <div class="text-danger mt-2">
-                        <?=$error = $validation->getError('email'); ?>
-                       </div>
-                       <?php }?>
                 <p id="ce" class="text-danger"></p>
                 <p id="ce2" class="text-danger"></p>
 
@@ -62,13 +35,7 @@
             <div class="mb-3">
                 <label for="exampleFormControlInput5" class="form-label">* Celular</label>
                 <input type="text" class="form-control" id="exampleFormControlInput5"
-                    name="celular" placeholder="Numero de celular"><!-- Error -->
-                     <?php if($validation->getError('celular')) {?>
-                       <div class="text-danger mt-2">
-                        <?=$error = $validation->getError('celular'); ?>
-                       </div>
-                       <?php }?>
-
+                    name="celular" placeholder="Numero de celular">
                 <p id="cc" class="text-danger"></p>
             </div>
             <div class="mb-3">
@@ -80,5 +47,5 @@
             <button type="submit" class="btn btn-sm btn-primary">Consultar</button>
             <button type="button" class="btn btn-sm btn-danger" onclick="limpiar_f_contacto()">Cancelar</button>
         </form>
-    </div>
+        </div>
 </div>
