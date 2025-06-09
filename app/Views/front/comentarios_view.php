@@ -8,27 +8,27 @@
             <h5 class="card-title">Soledad Paez</h5>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
           </div>
@@ -46,27 +46,27 @@
             <h5 class="card-title">Maria Suarez</h5>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
           </div>
@@ -86,12 +86,12 @@
             <h5 class="card-title">Mauro Alonso</h5>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
@@ -101,12 +101,12 @@
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-half.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
           </div>
@@ -125,27 +125,27 @@
             <h5 class="card-title">Enrique Martinez</h5>
              <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+               <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
           </div>
@@ -167,27 +167,27 @@
             <h5 class="card-title">Mauro Rosales</h5>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+               <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+               <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
           </div>
@@ -205,27 +205,27 @@
             <h5 class="card-title">Pedro Mendoza</h5>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+               <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+               <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
           </div>
@@ -245,7 +245,7 @@
             <h5 class="card-title">María Ramirez</h5>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
@@ -255,17 +255,17 @@
             </span>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+               <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
           </div>
@@ -284,27 +284,27 @@
             <h5 class="card-title">Laura Martinez</h5>
              <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+               <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+               <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
               <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
             <span class="fa fa-start">
                <i class="icono">
-                <img src="assets/img/star-fill.svg" alt="Icono" width="24" height="24">
+                <img src="<?php echo base_url('assets/img/star-fill.svg')?>" alt="Icono" width="24" height="24">
               </i>
             </span>
           </div>

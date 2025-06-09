@@ -2,14 +2,14 @@
     <div class="w-50">
         <?php $validation = \Config\Services::validation(); ?>
         <form class="bg-success-subtle p-2" action="<?php echo base_url('/enviar_mail') ?>" method="POST" id="formulario_contacto">
-            <?= csrf_field(); ?>
-            <?= csrf_field(); ?>
-            <?php if (!empty(session()->getFlashdata('fail'))): ?>
-                <div class="alert alert-danger"><? session()->getFlashdata('fail'); ?></div>
-            <?php endif ?>
-            <?php if (!empty(session()->getFlashdata('success'))): ?>
-                <div class="alert alert-warning"><? session()->getFlashdata('success'); ?></div>
-            <?php endif ?>
+        <?=csrf_field();?> 
+         <?=csrf_field();?> 
+         <?php if(!empty (session()->getFlashdata('fail'))):?>      
+         <div class="alert alert-danger"><?= session()->getFlashdata('fail');?></div>
+         <?php endif ?>
+          <?php if(!empty (session()->getFlashdata('success'))):?>
+            <div class="alert alert-warning"> <?= session()->getFlashdata('success')?></div>
+         <?php endif ?>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">* Nombre</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1"

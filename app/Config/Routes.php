@@ -27,11 +27,11 @@ $routes->post('/enviar_form', 'UserController::formValidation');
 $routes->get('/login', 'LoginController::index');
 $routes->post('/enviar_login', 'LoginController::auth');
 $routes->get('/panel', 'PanelController::index', ['filter'=> 'auth']);
-$routes->get('logout', 'LoginController::logout');
+$routes->get('/logout', 'LoginController::logout');
 
 /*rutas de Reservas */
 $routes->get('/panel/reservas', 'PanelController::reservas', ['filter'=> 'auth']);
-$routes->get('/panel', 'PanelController::index', ['filter'=> 'auth']);
+$routes->get('/panel/contactos', 'Home::contactos');
 
 
 

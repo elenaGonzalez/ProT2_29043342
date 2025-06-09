@@ -21,7 +21,15 @@
                                 <td><?= esc($reservas_item["fecha"]); ?></td>
                                 <td><?= esc($reservas_item["origen"]); ?></td>
                                 <td><?= esc($reservas_item["comentario"]); ?></td>
-                                <td><?= esc($reservas_item["calificacion"]); ?></td>
+                                <td>
+                                <?php for ($i = 0; $i < $reservas_item["calificacion"]; $i++) : ?>
+                                    <span class="fa fa-start">
+                                        <i class="icono">
+                                            <img src="<?php echo base_url('assets/img/star-fill.svg') ?>" alt="Icono" width="24" height="24">
+                                        </i>
+                                    </span>
+                                <?php endfor; ?>
+                                </td>
                             </tr>
                         <?php endforeach ?>
                     <?php else : ?>

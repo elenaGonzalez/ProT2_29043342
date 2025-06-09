@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-lg">
         <div class="card">
-          <img src="assets/img/gerente_general.jpg" class="card-img-top" alt="Gerente General">
+          <img src="<?php echo base_url('assets/img/gerente_general.jpg')?>" class="card-img-top" alt="Gerente General">
           <div class="card-body">
             <h5 class="card-title text-bg-light">Mario Lozano</h5>
             <p class="card-text">Soy Gerente General de la Empresa Turismo Corrientes. Mi labor consiste en liderar al equipo, coordinar las operaciones estratégicas y asegurar que nuestros servicios superen las expectativas de nuestros clientes.</p>
@@ -44,7 +44,7 @@
       </div>
       <div class="col-lg">
         <div class="card">
-          <img src="assets/img/gerente_de_rrhh.jpg" class="card-img-top" alt="Gerente de RRHH">
+          <img src="<?php echo base_url('assets/img/gerente_de_rrhh.jpg')?>" class="card-img-top" alt="Gerente de RRHH">
           <div class="card-body">
             <h5 class="card-title text-bg-light">Mateo Rosas</h5>
             <p class="card-text">Soy Gerente General de Recursos Humanos. Desde mi rol, me encargo de gestionar el talento humano, promover un ambiente laboral positivo y alinear el desarrollo del personal con los objetivos de la empresa.</p>
@@ -85,7 +85,7 @@
       </div>
       <div class="col-lg">
         <div class="card">
-          <img src="assets/img/gerente_de_ventas.jpg" class="card-img-top" alt="Gerente de Ventas">
+          <img src="<?php echo base_url('assets/img/gerente_de_ventas.jpg')?>" class="card-img-top" alt="Gerente de Ventas">
           <div class="card-body">
             <h5 class="card-title text-bg-light">Mara Segovia</h5>
             <p class="card-text">Soy Gerente de Ventas de la Empresa Corrientes Turismo. Mi responsabilidad principal es liderar el equipo comercial, diseñar estrategias de ventas efectivas y fortalecer relaciones con clientes y aliados.</p>
