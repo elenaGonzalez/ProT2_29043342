@@ -11,7 +11,7 @@
         href="https://github.com"
         role="button"
         target="_blank"
-        data-mdb-ripple-color="dark"><img src="assets/img/github_icon.png" alt="Github"/></a>
+        data-mdb-ripple-color="dark"><img src="<?php echo base_url('assets/img/github_icon.png')?>" alt="Github"/></a>
 
       <!-- Linkedin -->
       <a
@@ -20,7 +20,7 @@
         href="https://www.linkedin.com"
         role="button"
         target="_blank"
-        data-mdb-ripple-color="dark"><img src="assets/img/linkedin_icon.png" alt="Linkedin"/></a>
+        data-mdb-ripple-color="dark"><img src="<?php echo base_url('assets/img/linkedin_icon.png')?>" alt="Linkedin"/></a>
 
     </section>
     <!-- Section: Social media -->
