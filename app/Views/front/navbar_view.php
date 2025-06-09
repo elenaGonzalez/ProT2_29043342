@@ -28,15 +28,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="registro">Registrarse</a>
                 </li>
-                <?php if(session()->id_perfil == 1 || session()->id_perfil == 2 ): ?>
-            <li class="nav-item">
-                    <a class="nav-link" href="logout">Logout</a>
-                </li>
-        <?php else: ?>
-            <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="login">Login</a>
                 </li>
-            <?php endif; ?>
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
